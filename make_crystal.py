@@ -11,7 +11,7 @@ def make_row_x(box_length, L, D):
 		z = D/2.0
 		print "%f %f %f \n" % (x, y, z)
 		rod_count += 1
-		x += D
+		x += 2*D
 	return rod_count
 
 
